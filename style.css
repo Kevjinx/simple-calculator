@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  width: 90%;
+  height: 60px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+.calculator {
+  width: 500px;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.operation, .numberBtn {
+  width: 20%;
+  height: 40px;
+  border-radius: 7px;
+  margin: 3px;
+  border: none;
+}
+
+.operation {
+  background-color: rgb(189, 189, 189);
+}
+
+.numberBtn {
+  background-color: honeydew;
+}
